@@ -1,0 +1,15 @@
+﻿body {
+}
+
+.header{
+    width:100%;
+    height: 100px;
+    background-color:aqua;
+}
+.titleHead{
+    margin:3%;
+    float:left;
+}
+.userHead{
+    text-align:-webkit-right;
+}
