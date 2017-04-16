@@ -5,11 +5,27 @@
     width:100%;
     height: 100px;
     background-color:aqua;
+    margin-bottom:30px;
 }
 .titleHead{
-    margin:3%;
-    float:left;
+    padding: 25px;
+    margin: 14px;
+    float: left;
 }
 .userHead{
     text-align:-webkit-right;
+    padding: 21px;
+}
+.listUser{
+    text-align: -webkit-left;
+    margin: 20px;
+    padding: 20px;
+    float: left;
+}
+.user{
+    width: 130px;
+    margin:10px;
+}
+.nameU{
+   padding: 0px 10px 0px;
 }

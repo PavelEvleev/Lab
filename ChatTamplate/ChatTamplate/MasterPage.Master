@@ -4,9 +4,8 @@
 
 <html>
 <head runat="server">
-    <title></title>
-    <asp:ContentPlaceHolder ID="head" runat="server">
-    </asp:ContentPlaceHolder>
+    <title>ChatTamplate</title>
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
@@ -16,9 +15,10 @@
             <myControl:User ID="HeadUser" runat="server"></myControl:User>
         </div>
     </div>
+    <div class="listUser">
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         
         </asp:ContentPlaceHolder>
-    
+    </div>
 </body>
 </html>
