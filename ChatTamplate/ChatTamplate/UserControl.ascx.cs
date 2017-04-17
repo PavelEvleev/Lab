@@ -25,7 +25,6 @@ namespace ChatTamplate
                 ImgUser.ImageUrl = ImgU;
             }
             NameUser.CssClass = "nameU";
-           
         }
     }
 }
