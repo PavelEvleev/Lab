@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsSite", "NewsSite\NewsSite.csproj", "{5A2D903E-077B-46DA-A3AF-66FFDDFB5281}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartyInvites", "NewsSite\PartyInvites.csproj", "{5A2D903E-077B-46DA-A3AF-66FFDDFB5281}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
