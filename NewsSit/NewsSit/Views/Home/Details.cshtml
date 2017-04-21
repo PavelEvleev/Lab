@@ -1,0 +1,38 @@
+﻿@*@model NewsSit.App_Data.News*@
+@model IEnumerable<NewsSit.App_Data.Comments>
+
+@{
+    ViewBag.Title = "News"+@ViewBag.IdNews;
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>@ViewBag.NameNews</h4>
+    <hr />
+    <div class="panel-body">
+        <div class="text-center">@ViewBag.TextNews</div>
+
+        <div style="border: solid 1px black">
+        @foreach (var c in Model)
+        {
+            <div style="border:dashed 4px red; margin:5px;">
+                <div style="float:left; padding:10px;">
+                    User: @c.UserName
+                </div>
+                
+                <div style="padding:10px;">
+                    Text: @c.Text
+                </div>
+            </div>
+        }
+        </div>
+    </div>
+    @Html.ActionLink("Add comment", "Create", "Comments")
+
+   
+</div>
+<p>
+   @* @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |*@
+    @Html.ActionLink("Back to List", "Index")
+</p>
